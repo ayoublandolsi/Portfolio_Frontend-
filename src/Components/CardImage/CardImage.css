@@ -1,0 +1,273 @@
+.text-animation {
+    animation: fadeInOut 10s infinite;
+  }
+
+  @keyframes fadeInOut {
+    0%, 100% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    10%, 90% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .homw{
+
+    position:  relative;
+    width: 100%;
+justify-content: space-between;
+height:100vh;
+background: url();
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+padding:60px 5% 0;
+margin-top: -100px;
+  }
+.home-content{
+max-width: 600px;
+  }
+.home-content .h134
+{
+font-size: 32px;
+font-weight: 700;
+opacity:0;
+animation: slideBottom 1s ease forwards;
+animation-delay:.7s;
+
+}
+.home-content .h134:nth-of-type(2){
+    margin-bottom:20px;
+    margin-top: 10px;
+}
+.home-content .h13{
+    font-size: 56px;
+font-weight: 700;
+margin:  -3px 0;
+opacity:0;
+animation: slideRight 1s ease forwards;
+animation-delay: 1s;
+}
+.home-content .pergraph
+{
+    font-size: 20px;
+    opacity:0;
+    animation:  slideLefet  1s ease forwards;
+    animation-delay: delay 1s;
+}
+.home-sci a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #11a372;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #11a372;
+    text-decoration: none;
+    transition : .5s ease;
+    opacity:0;
+animation: slideLefet 1s ease forwards;
+animation-delay:calc(.2s * var(--i));
+    margin: 30px 15px 30px 0;
+}
+.home-sci a:hover
+{
+    background: #11a372;
+    color: #081b29;
+    box-shadow: 0 0 20px #11a372;
+}
+
+.btn-boxx
+{
+    display: inline-block;
+    padding: 12px 28px;
+    background:#11a372;
+    border-radius: 40px;
+font-size: 16px;
+color: #081b29;
+letter-spacing: 1px;
+text-decoration: none;
+font-weight: 600;
+opacity:0;
+animation: slideTop 1s ease forwards;
+animation-delay: 2s ;
+    margin: 0px 15px 40px 0;
+    box-shadow: 0 0 2px #11a372,
+    0 0 10px #11a372
+}
+.btn-boxx:hover
+{
+    box-shadow: 0 0 5px #11a372,
+    0 0 25px #11a372, 0 0 50px #11a372,
+ 0 0 100px #11a372, 0 0 200px #11a372
+}
+.taswira {
+    box-shadow: 0 0 5px #11a372, 0 0 25px #11a372, 0 0 40px #11a372, 0 0 60px #11a372, 0 0 100px #11a372;
+    border: 10px solid;
+    height: 300px;
+    border-radius: 50%;
+    margin: 50px;
+    margin-top: -10px;
+    width: 300px;
+    justify-content:center;
+    align-items :center;
+    display:flex;
+    animation: floatAnimation 2s infinite;
+
+  }
+  .taswira img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+
+  }
+  @media (max-width: 1100px) {
+
+    .taswira {
+    margin-bottom: 40px;
+        margin-top: 50px;
+    }
+    .btn-boxx{
+        margin: 10px 0px 0px 0px;
+
+    }
+    .homw{
+        display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    height: 100%;
+    max-width: 100%;
+    flex-direction: column-reverse;
+
+
+    }
+    .home-sci{
+        margin: 0px 0px 0px 0px;
+}
+    .home-sci a{
+        margin: 30px 5px 30px 0px;
+
+    }
+.home-content{
+    justify-content: center;
+    align-items: center;
+     align-self: center;
+     text-align: center;
+}
+.home-content .h134{
+    font-size: 24px;
+}
+.pergraph{
+    margin-right: 0px;
+
+}
+
+  }
+  @media (max-width: 500px) {
+    .taswira {
+        margin: 0px 0px 0px 0px;
+    margin-bottom: 40px;
+        margin-top: 20px;
+        width: 200px;
+        height: 200px;
+    }
+    .taswira img{
+        height: 200px;
+        width: 200px;}
+    .btn-boxx{
+        margin: 10px 0px 0px 0px;
+
+    }
+    .homw{
+        display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 100%;
+    max-width: 100%;
+    flex-direction: column-reverse;
+
+
+    }
+    .home-sci{
+        margin: 0px 0px 0px 0px;
+}
+    .home-sci a{
+        margin: 30px 5px 30px 0px;
+
+    }
+.home-content{
+    justify-content: center;
+    align-items: center;
+     align-self: center;
+     text-align: center;
+}
+.home-content .h134{
+    font-size: 24px;
+}
+.pergraph{
+    margin-right: 0px;
+
+}
+
+  }
+  .taswira {
+    animation: floatAnimation 2s infinite;
+  }
+  @keyframes floatAnimation {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0, -4px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+@keyframes slideBottom{
+    0%{
+        transform: translateY(-100px);
+        opacity:0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity:1;
+    }
+}
+@keyframes slideTop{
+    0%{
+        transform: translateY(-100px);
+        opacity:0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity:1;
+    }
+}
+@keyframes slideRight{
+    0%{
+        transform: translateX(-100px);
+        opacity:0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity:1;
+    }
+}
+@keyframes slideLefet{
+    0%{
+        transform: translateX(100px);
+        opacity:0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity:1;
+    }
+}

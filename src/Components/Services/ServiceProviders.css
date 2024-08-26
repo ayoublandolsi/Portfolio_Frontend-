@@ -1,0 +1,205 @@
+.service{
+    width: 100%;
+    padding:  30px 0px 0px 0px ;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.service.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @keyframes slideLeft {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.buttonn{
+    width:95%;
+position: relative;
+}
+
+    .tittle {
+    text-aLign: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    font-weight: 600;
+    }
+
+    .tittle :after{
+    content : '';
+    position: absolute;
+    Left: 50px;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 3px;
+    background-color: #fff;
+    }
+.cards{
+    display:flex;
+        justify-content: space-between;
+        align-items: center;
+        opacity:0;
+
+}
+
+    .cards.animate {
+
+        opacity: 0;
+animation: slideLefet 1s ease forwards;
+animation-delay: 1s;
+    }
+        .carddd{
+        width: calc(34% - 22px);
+        background: #fffcfc;
+        box-shadow: 0 0 1em rgba(2, 79, 24, 0.2);
+        coLor: #000000;
+        padding: 40px 12px;
+        margin: 0 30px;
+        text-aLign: center;
+        position: relative;
+cursor: pointer;
+
+transition: 3s;
+
+}
+.icon{
+    width: 65px;
+    height: 65px;
+font-size: 50px;
+border: 1px solid rgb(0, 0, 0,0.5);
+border-radius: 50%;
+padding: 15px ;
+transition: 0.5s;
+}
+.titre{
+font-size: 24px;}
+.sbox p{
+margin: 20px 0;
+
+}
+.button{
+    text-decoration: none;
+    color: #fff;
+font-size: 18px;
+font-weight: 500px;
+background: #333;
+padding: 10px 15px;
+border-radius: 18px;
+transition: 0.5s;
+margin: 15px 0;
+}
+.button:hover{
+    background: transparent ;
+    border: 1px solid #333;
+    transform:scale(1.2);
+    background: rgb(0,184,148);
+
+}
+.salih{
+    opacity:0;
+animation:slideTop 1s ease forwards;
+animation-delay: 3s ;
+
+}
+.carddd:hover .icon {
+    background: #11a372;
+    color: #fff;
+    border-color:#11a372 ;
+    box-shadow: 0 0 .2rem #11a372;
+
+  }
+
+    .carddd:after{
+    content:'';
+    height:100%;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.carddd:hover:after{
+    transform: rotate(13deg) ;
+    background-color:#11a372 ;
+    box-shadow: 0 0 .2rem #11a372;
+}
+@keyframes slideBottom{
+    0%{
+        transform: translateY(-100px);
+        opacity:0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity:1;
+    }
+}
+@keyframes slideTop{
+    0%{
+        transform: translateY(-100px);
+        opacity:0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity:1;
+    }
+}
+@keyframes slideRight{
+    0%{
+        transform: translateX(-100px);
+        opacity:0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity:1;
+    }
+}
+@keyframes slideLefet{
+    0%{
+        transform: translateX(100px);
+        opacity:0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity:1;
+    }
+}
+@media (max-width: 1200px) {
+
+    .service{
+        display:flex;
+        padding:  0px 0px 0px 0px;
+        margin: 0% 0% 0% 0px ;
+    }
+
+    .cards{
+        display:flex;
+        flex-direction:column;
+        padding:  0px 0px 0px 0px;
+        margin: 0% 0% 0% 0px ;
+
+    }
+    .carddd{
+        width: 80% !important;
+        border-radius: 1px;
+        margin-top: 30px !important;
+         padding: 40px 12px;
+        margin: 0px 0px 0px 0px;
+
+
+    }
+
+    }

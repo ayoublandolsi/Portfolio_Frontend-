@@ -1,0 +1,184 @@
+.botton {
+    text-decoration: none;
+    position: relative;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    font-family: inherit;
+    color: #fff;
+    width: 9em;
+    height: 2em;
+    padding-bottom:  10px;
+    padding-top: 2px;
+        line-height: 2em;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 300%;
+    border-radius: 30px;
+    z-index: 1;
+  }
+
+  .botton:hover {
+    animation: ani 8s linear infinite;
+    border: none;
+  }
+
+  @keyframes ani {
+    0% {
+      background-position: 0%;
+    }
+
+    100% {
+      background-position: 400%;
+    }
+  }
+
+  .botton:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #488cfb,
+    #29dbbc,
+    #ddf505,
+    #ff9f0e,
+    #e440bb,
+    #655adc,
+    #488cfb);
+    background-size: 400%;
+    border-radius: 15px;
+    transition: 1s;
+  }
+
+  .botton:hover::before {
+    filter: blur(20px);
+  }
+
+  .botton:active {
+    background: linear-gradient(32deg, #488cfb,
+    #29dbbc,
+    #ddf505,
+    #ff9f0e,
+    #e440bb,
+    #655adc,
+    #488cfb);
+  }
+
+  button {
+    text-decoration: none;
+    position: relative;
+    border: none;
+    font-size: 14px;
+    font-family: inherit;
+    color: #fff;
+    width: 9em;
+    height: 3em;
+    line-height: 2em;
+    text-align: center;
+    --border-radius: 15px;
+    --border-width: 4px;
+    appearance: none;
+    position: relative;
+    padding: 1em 2em;
+    border: 0;
+    background-color: #fff;
+    font-family: "Roboto", Arial, "Segoe UI", sans-serif;
+    font-size: 15px;
+    margin-left: 50px;
+    font-weight: 500;
+    color: #231c1c;
+    z-index: 2;
+   }
+
+
+
+   .buttonn:hover::after {
+    animation-play-state: running;
+   }
+
+   @keyframes rotate-hue {
+    to {
+     filter: hue-rotate(1turn);
+    }
+   }
+
+   .buttonn,
+   .buttonn::after {
+    box-sizing: border-box;
+   }
+
+   .buttonn:active {
+    --border-width: 5px;
+   }
+ /*buttonnµ*/
+ .btn_box {
+    --text-color: #f5f5f5;
+    --hover-color:  #11a372;
+    --bg-color : #250821 ;
+    --secon-twcoior•: #292e33;
+    --big-font : 2.5rem;
+    --normal-font : 2rem;
+    --neon-box-shadow : 0 0 .5rem #11a372;
+    --h2-font:3rem;
+}
+.btn_box {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    height: 45px;
+  }
+  @media (max-width: 380px) {
+    .btn_box {
+         width: 270px;
+        height: 45px;
+
+  }
+}
+
+
+  .btn_box a.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 45px;
+    font-size: 1rem;
+    background: var(--hover-color);
+    color: var(--bg-color);
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.6s;
+    box-shadow: var(--neon-box-shadow);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+    @media (max-width: 400px) {
+        .btn_box a.btn  {     font-size: 13px;
+
+      }
+  }
+
+  a.btn:hover {
+    color: var(--hover-color);
+  }
+
+  a.btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--bg-color);
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: 0.4s;
+  }
+
+  a.btn:hover::before {
+    width: 100%;
+    color: #1b1515;
+  }

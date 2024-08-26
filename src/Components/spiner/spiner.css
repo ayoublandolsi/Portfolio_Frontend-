@@ -1,0 +1,318 @@
+
+.card-l {
+    position:relative ;
+    width: 190px;
+    height: 90px;
+    background: #ffff;
+    -webkit-box-shadow: 0 1px 25px rgba(0,0,0,0.2);
+            box-shadow: 0 1px 25px rgba(0,0,0,0.2);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    top: 50%;
+    margin-top: 150px;
+    left: 50%;
+    padding: 12px 10px;
+  }
+
+  .card_load {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    float: left;
+    background: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0
+    40%, #e5e5e5 48%);
+    border-radius: 50%;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    -webkit-animation: load89234 2s infinite;
+            animation: load89234 2s infinite;
+  }
+
+  .card_load_extreme_title {
+    width: 90px;
+    height: 10px;
+    position: relative;
+    float: right;
+    border-radius: 5px;
+    background: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0
+    40%, #e5e5e5 48%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    -webkit-animation: load89234 2s infinite;
+            animation: load89234 2s infinite;
+  }
+
+  .card_load_extreme_descripion {
+    width: 90px;
+    height: 47px;
+    position: relative;
+    float: right;
+    border-radius: 5px;
+    background: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0
+    40%, #e5e5e5 48%);
+    margin-top: 10px;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    -webkit-animation: load89234 2s infinite;
+            animation: load89234 2s infinite;
+  }
+
+  @-webkit-keyframes load89234 {
+    100% {
+      background-position: -100% 0;
+    }
+  }
+
+  @keyframes load89234 {
+    100% {
+      background-position: -100% 0;
+    }
+  }
+ /* /////////////////////////////////////*/
+ .loader {
+  --background: linear-gradient(135deg, #23C4F8, #275EFE);
+  --shadow: rgba(39, 94, 254, 0.28);
+  --text: #6C7486;
+  --page: rgba(255, 255, 255, 0.36);
+  --page-fold: rgba(255, 255, 255, 0.52);
+  --duration: 3s;
+  width: 200px;
+  height: 140px;
+
+  position: relative;
+}
+.loadi{
+    margin-top: 200px;
+    margin: 100px 450px;
+}
+
+.loader:before, .loader:after {
+  --r: -6deg;
+  content: "";
+  position: absolute;
+  bottom: 8px;
+  width: 120px;
+  top: 80%;
+  box-shadow: 0 16px 12px var(--shadow);
+  transform: rotate(var(--r));
+}
+
+.loader:before {
+  left: 4px;
+}
+
+.loader:after {
+  --r: 6deg;
+  right: 4px;
+}
+
+.loader div {
+  width: 100%;
+  height: 100%;
+  border-radius: 13px;
+  position: relative;
+  z-index: 1;
+  perspective: 600px;
+  box-shadow: 0 4px 6px var(--shadow);
+  background-image: var(--background);
+}
+
+.loader div ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+
+.loader div ul li {
+  --r: 180deg;
+  --o: 0;
+  --c: var(--page);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transform-origin: 100% 50%;
+  color: var(--c);
+  opacity: var(--o);
+  transform: rotateY(var(--r));
+  -webkit-animation: var(--duration) ease infinite;
+  animation: var(--duration) ease infinite;
+}
+
+.loader div ul li:nth-child(2) {
+  --c: var(--page-fold);
+  -webkit-animation-name: page-2;
+  animation-name: page-2;
+}
+
+.loader div ul li:nth-child(3) {
+  --c: var(--page-fold);
+  -webkit-animation-name: page-3;
+  animation-name: page-3;
+}
+
+.loader div ul li:nth-child(4) {
+  --c: var(--page-fold);
+  -webkit-animation-name: page-4;
+  animation-name: page-4;
+}
+
+.loader div ul li:nth-child(5) {
+  --c: var(--page-fold);
+  -webkit-animation-name: page-5;
+  animation-name: page-5;
+}
+
+.loader div ul li svg {
+  width: 90px;
+  height: 120px;
+  display: block;
+}
+
+.loader div ul li:first-child {
+  --r: 0deg;
+  --o: 1;
+}
+
+.loader div ul li:last-child {
+  --o: 1;
+}
+
+.loader span {
+  display: block;
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin-top: 20px;
+  text-align: center;
+  color: var(--text);
+}
+
+@keyframes page-2 {
+  0% {
+    transform: rotateY(180deg);
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  35%, 100% {
+    opacity: 0;
+  }
+
+  50%, 100% {
+    transform: rotateY(0deg);
+  }
+}
+
+@keyframes page-3 {
+  15% {
+    transform: rotateY(180deg);
+    opacity: 0;
+  }
+
+  35% {
+    opacity: 1;
+  }
+
+  50%, 100% {
+    opacity: 0;
+  }
+
+  65%, 100% {
+    transform: rotateY(0deg);
+  }
+}
+
+@keyframes page-4 {
+  30% {
+    transform: rotateY(180deg);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  65%, 100% {
+    opacity: 0;
+  }
+
+  80%, 100% {
+    transform: rotateY(0deg);
+  }
+}
+
+@keyframes page-5 {
+  45% {
+    transform: rotateY(180deg);
+    opacity: 0;
+  }
+
+  65% {
+    opacity: 1;
+  }
+
+  80%, 100% {
+    opacity: 0;
+  }
+
+  95%, 100% {
+    transform: rotateY(0deg);
+  }
+}
+
+/*sppinnner*/
+.loaderr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .slider {
+    overflow: hidden;
+    background-color: white;
+    margin: 0 15px;
+    height: 80px;
+    width: 20px;
+    border-radius: 30px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.1), -15px -15px 30px #fff,
+      inset -5px -5px 10px rgba(0, 0, 255, 0.1),
+      inset 5px 5px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+
+  .slider::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.3), 0px 420px 0 400px #2697f3,
+      inset 0px 0px 0px rgba(0, 0, 0, 0.1);
+    animation: animate_2 2.5s ease-in-out infinite;
+    animation-delay: calc(-0.5s * var(--i));
+  }
+
+  @keyframes animate_2 {
+    0% {
+      transform: translateY(250px);
+      filter: hue-rotate(0deg);
+    }
+
+    50% {
+      transform: translateY(0);
+    }
+
+    100% {
+      transform: translateY(250px);
+      filter: hue-rotate(180deg);
+    }
+  }
+
