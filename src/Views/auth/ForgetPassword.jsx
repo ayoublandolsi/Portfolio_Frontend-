@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import * as Components from "../../Components/logincomponents/login"
+import * as Components from "../../Components/logincomponents/Login"
 import { Link } from "react-router-dom";
 import './auth.css';
 import axios from "../../axios"

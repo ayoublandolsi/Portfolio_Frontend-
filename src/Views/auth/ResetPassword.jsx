@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import * as Components from "../../Components/logincomponents/login";
+import * as Components from "../../Components/logincomponents/Login";
 import { Link, Navigate,useNavigate, useParams, useSearchParams } from "react-router-dom";
 import axios from "../../axios";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

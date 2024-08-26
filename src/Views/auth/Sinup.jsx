@@ -1,4 +1,4 @@
-import * as Components from "../../Components/logincomponents/login"
+import * as Components from "../../Components/logincomponents/Login"
 import './auth.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEyeSlash , faEye, faEnvelope, faLock } from '@fortawesome/free-solid-svg-icons';
