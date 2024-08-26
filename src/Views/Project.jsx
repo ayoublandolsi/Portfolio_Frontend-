@@ -1,7 +1,7 @@
 import React from "react";
 import ListComponent from "../Components/Project/ListComponent";
 import { Link } from "react-router-dom";
-import "../Components/skill/Skills.css";
+import "../Components/skill/skills.css";
 import { useStateContext } from "../Contexts/ContextProvider";
 
 
