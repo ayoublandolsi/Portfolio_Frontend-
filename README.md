@@ -1,15 +1,15 @@
 # Portfolio_Frontend-
 
-![Project Banner](assets/REDME/Screenshot_26-8-2024_192856_localhost.jpeg)
-![Project Banner](assets/REDME/Screenshot_26-8-2024_193327_localhost.jpeg)
-![Project Banner](assets/REDME/Screenshot_26-8-2024_19314_localhost.jpeg)
-![Project Banner](assets/REDME/Screenshot_26-8-2024_19344_localhost.jpeg)
-![Project Banner](assets/REDME/Screenshot_26-8-2024_192932_localhost.jpeg)
-![Project Banner](assets/REDME/Screenshot_26-8-2024_192941_localhost.jpeg)
-![Project Banner](assets/REDME/Screenshot_26-8-2024_193034_localhost.jpeg)
-![Project Banner](assets/REDME/Screenshot_26-8-2024_193154_localhost.jpeg)
-![Project Banner](assets/REDME/Screenshot_26-8-2024_193324_localhost.jpeg)
-![Project Banner](assets/REDME/Screenshot_26-8-2024_193449_localhost.jpeg)
+![Project Banner](REDME/Screenshot_26-8-2024_192856_localhost.jpeg)
+![Project Banner1](REDME/Screenshot_26-8-2024_193327_localhost.jpeg)
+![Project Banner2](REDME/Screenshot_26-8-2024_19314_localhost.jpeg)
+![Project Banner3](REDME/Screenshot_26-8-2024_19344_localhost.jpeg)
+![Project Banner4](REDME/Screenshot_26-8-2024_192932_localhost.jpeg)
+![Project Banner5](REDME/Screenshot_26-8-2024_192941_localhost.jpeg)
+![Project Banner6](REDME/Screenshot_26-8-2024_193034_localhost.jpeg)
+![Project Banner7](REDME/Screenshot_26-8-2024_193154_localhost.jpeg)
+![Project Banner8](REDME/Screenshot_26-8-2024_193324_localhost.jpeg)
+![Project Banner9](REDME/Screenshot_26-8-2024_193449_localhost.jpeg)
 
 ## Description
 
