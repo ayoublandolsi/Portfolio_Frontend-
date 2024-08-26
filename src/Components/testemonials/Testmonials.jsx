@@ -1,5 +1,5 @@
 import './Testemonials.css'
-import Sppiner from '../spiner/Sppiner'
+import Sppiner from '../spiner/sppiner'
 import SwiperCore, { EffectCoverflow, Pagination,Navigation, Scrollbar, A11y} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import HoverRating from '../comment/HoverRating';
