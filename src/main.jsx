@@ -1,7 +1,7 @@
 import React from 'react';
 import ThemeProvider from './theme';
-import { StyledChart } from './components/chart';
-import ScrollToTop from './components/scroll-to-top';
+import { StyledChart } from './Components/chart';
+import ScrollToTop from './Components/scroll-to-top';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Router from './Router'; // Import the updated router component
