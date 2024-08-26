@@ -1,6 +1,6 @@
 import "./CardImage.css";
 import { FiLinkedin, FiGithub,  FiFacebook, FiInstagram, FiMail } from 'react-icons/fi';
-import ayoub from "../../assets/images/Ayoublabdol.jpg"
+import ayoub from "../../assets/images/Ayoublabdol-eb76e0a8.jpg"
 import { Typewriter , Cursor } from 'react-simple-typewriter';
 import { Link } from "react-router-dom";
 

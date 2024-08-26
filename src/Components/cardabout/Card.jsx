@@ -1,4 +1,4 @@
-import ayoub from '../../assets/images/Ayoublabdol.jpg'
+import ayoub from '../../assets/images/Ayoublabdol-eb76e0a8.jpg'
 import './Card.css'
 export default function Card() {
   return (

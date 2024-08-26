@@ -1,7 +1,7 @@
 import { NavLink, Outlet } from 'react-router-dom'
 import './skills.css'
 import Card from '../cardabout/Card';
-import Skills from './skills';
+import Skills from './Skills';
 import { useState } from 'react';
 import { useStateContext } from '../../Contexts/ContextProvider';
 
