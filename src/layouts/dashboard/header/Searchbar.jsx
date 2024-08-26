@@ -5,7 +5,7 @@ import { Input, Slide, Button, IconButton, InputAdornment, ClickAwayListener } f
 // utils
 import { bgBlur } from '../../../utils/cssStyles';
 // component
-import Iconify from '../../../components/iconify';
+import Iconify from '../../../Components/iconify';
 
 // ----------------------------------------------------------------------
 

@@ -12,8 +12,8 @@ import useResponsive from '../../../hooks/useResponsive';
 // components
 
 import logoo from '../../../assets/logo.png'
-import Scrollbar from '../../../components/scrollbar';
-import NavSection from '../../../components/nav-section';
+import Scrollbar from '../../../Components/scrollbar';
+import NavSection from '../../../Components/nav-section';
 //
 import navConfig from './config';
 import { useStateContext } from '../../../Contexts/ContextProvider';

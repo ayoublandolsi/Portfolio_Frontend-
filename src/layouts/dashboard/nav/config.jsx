@@ -1,5 +1,5 @@
 // component
-import SvgColor from '../../../components/svg-color';
+import SvgColor from '../../../Components/svg-color';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBarsProgress,faHouse,faAddressCard,faAddressBook,faComments, faListCheck,faCommentDots} from '@fortawesome/free-solid-svg-icons'
 

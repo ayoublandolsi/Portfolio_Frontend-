@@ -5,7 +5,7 @@ import { Card, Typography } from '@mui/material';
 // utils
 import { fShortenNumber } from '../../../utils/formatNumber';
 // components
-import Iconify from '../../../components/iconify';
+import Iconify from '../../../Components/iconify';
 
 // ----------------------------------------------------------------------
 
