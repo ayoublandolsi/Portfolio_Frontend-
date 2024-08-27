@@ -20,6 +20,10 @@
 
 ![Project Banner9](REDME/Screenshot_26-8-2024_193449_localhost.jpeg)
 
+## Important Notice
+
+This repository is protected. You are not allowed to download, use, or distribute the code in this repository without explicit permission from the repository owner. Please contact me at ayoublandolsie@gmail.com if you wish to use or contribute to this project.
+
 ## Description
 
 This project is a full-stack web application with a React frontend and a Laravel backend. The application allows users to create accounts, manage projects, provide feedback, and interact through a chat system similar to Messenger. Users can also comment on and like projects, and upload photos as part of their profile or project content.
