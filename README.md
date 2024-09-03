@@ -1,27 +1,22 @@
 # Portfolio_Frontend-
 
-![Project Banner](REDME/Screenshot_26-8-2024_192856_localhost.jpeg)
+<p align="center">
+  <img src="REDME/Screenshot_26-8-2024_192856_localhost.jpeg" alt="Project Banner" width="300" height="200"/>
+  <img src="REDME/Screenshot_26-8-2024_193327_localhost.jpeg" alt="Project Banner1" width="300" height="200"/>
+  <img src="REDME/Screenshot_26-8-2024_19314_localhost.jpeg" alt="Project Banner2" width="300" height="200"/>
+</p>
 
+<p align="center">
+  <img src="REDME/Screenshot_26-8-2024_19344_localhost.jpeg" alt="Project Banner3" width="300" height="200"/>
+  <img src="REDME/Screenshot_26-8-2024_192932_localhost.jpeg" alt="Project Banner4" width="300" height="200"/>
+  <img src="REDME/Screenshot_26-8-2024_193034_localhost.jpeg" alt="Project Banner6" width="300" height="200"/>
+</p>
 
-![Project Banner1](REDME/Screenshot_26-8-2024_193327_localhost.jpeg)
-
-
-![Project Banner2](REDME/Screenshot_26-8-2024_19314_localhost.jpeg)
-
-
-![Project Banner3](REDME/Screenshot_26-8-2024_19344_localhost.jpeg)
-
-
-![Project Banner4](REDME/Screenshot_26-8-2024_192932_localhost.jpeg)
-
-
-![Project Banner6](REDME/Screenshot_26-8-2024_193034_localhost.jpeg)
-
-
-![Project Banner7](REDME/Screenshot_26-8-2024_193154_localhost.jpeg)
-
-
-![Project Banner9](REDME/Screenshot_26-8-2024_193449_localhost.jpeg)
+<p align="center">
+  <img src="REDME/Screenshot_26-8-2024_193154_localhost.jpeg" alt="Project Banner7" width="300" height="200"/>
+  <img src="REDME/Screenshot_26-8-2024_193449_localhost.jpeg" alt="Project Banner9" width="300" height="200"/>
+  <img src="REDME/Screenshot_26-8-2024_19309_localhost.jpeg" alt="Project Banner10" width="300" height="200"/>
+</p>
 
 ## Important Notice
 
@@ -61,4 +56,3 @@ This project is a full-stack web application with a React frontend and a Laravel
 - **Image Handling**: Laravel Storage, Cloudinary (optional)
 - **Email Service**: Laravel Mail, Mailgun/SMTP
 - **Build Tool**: Vite.js
-
