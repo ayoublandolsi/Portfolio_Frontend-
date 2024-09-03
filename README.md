@@ -15,6 +15,7 @@
 <p align="center">
   <img src="REDME/Screenshot_26-8-2024_193154_localhost.jpeg" alt="Project Banner7" width="300" height="200"/>
   <img src="REDME/Screenshot_26-8-2024_193449_localhost.jpeg" alt="Project Banner9" width="300" height="200"/>
+  <img src="REDME/Screenshot_26-8-2024_19309_localhost.jpeg" alt="Project Banner9" width="300" height="200"/>
 </p>
 
 ## Important Notice
